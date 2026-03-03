@@ -78,3 +78,28 @@ footer {
     width: 500px;
     height: auto;
 }
+
+.sns-links {
+    display: flex;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+
+.sns-icon {
+    text-decoration: none;
+    color: #333; /* 基本の文字色 */
+    transition: color 0.3s; /* ホバー時にふわっと色を変える */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* X（旧Twitter）のホバー色 */
+.sns-icon.x-twitter:hover {
+    color: #2194a0; /* 黒 */
+}
+
+/* Instagramのホバー色 */
+.sns-icon.instagram:hover {
+    color: #E1306C; /* インスタっぽいピンク */
+}
